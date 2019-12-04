@@ -42,12 +42,26 @@ app.use(express.static('public'));
 // this is, right now, an introduction to Callback Hell
 // but it is okay for a first-level example
 app.get('/api', (req, res) => {
-  const baseURL = 'https://api.umd.io/v0/bus/routes';
+  const baseURL = 'https://data.princegeorgescountymd.gov/resource/mnkf-cu5c.json';
   fetch(baseURL)
-    .then((r) => r.json())
-    .then((data) => {
-      console.log(data);
-      res.send({ data: data });
+    .then(r => r.json())
+    .then(data => data.map(c => c.location + "," + c.posted_speed))
+    .then(data => {
+        var speedCameras = [];
+        data.forEach(function(thing) {
+            var infoSplit = thing.split(/[\n,]+/)
+            var address = infoSplit[0] + ", " + infoSplit[1].trim() + ", " + infoSplit[2].trim()
+            var lat = infoSplit[5].replace("(", "").trim()
+            var long = infoSplit[6].replace(")", "").trim()
+            var postedSpeed = infoSplit[7]
+            var enforcementSpeed = infoSplit[8]
+            // var current = address + "|" + lat + "|" + long + "|" + postedSpeed
+            var current = [address, lat, long, postedSpeed]
+            speedCameras.push(current)
+        })  
+
+        console.log(speedCameras);
+        res.send({ data: speedCameras });
     })
     .catch((err) => {
       console.log(err);

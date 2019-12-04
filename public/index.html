@@ -56,8 +56,7 @@
       L.marker([38.996, -76.9]).addTo(mymap)
       	.bindPopup("<b>INST 377</b><br />Popup Test").openPopup();
 
-      L.marker([38.99, -76.8]).addTo(mymap)
-      	.bindPopup("<b>INST 377</b><br />Popup Test").openPopup();
+      
 
 
 
@@ -82,7 +81,26 @@
       //     .openOn(mymap);
       // }
 
-      mymap.on("click", onMapClick);
+      //mymap.on("click", onMapClick);
+
+      console.log('fetch'); // confirm code is running on click
+      fetch('/api')
+        .then(res => res.json())
+        .then(res => {
+          console.log(res); // logging step to check what we got
+          return res.data;
+        })
+        .then(data => {
+          var i;
+          for (i=0; i<data.length; i++) {
+            if(i === 35) {
+              continue;
+            }
+            L.marker([data[i][1], data[i][2]]).addTo(mymap)
+          .bindPopup("<b>Address</b><br />" + data[i][0] + "<br /><b>Posted Speed</b><br />" + data[i][3] + "mph").openPopup();
+          }
+        })
+
     </script>
   </body>
 </html>
