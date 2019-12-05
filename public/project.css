@@ -200,7 +200,9 @@ label {
 }
 
 .main {
-  width: 45%;
+  display: flex;
+  max width: 75%;
+  flex-direction: column;
   float: centered;
   padding: 10px;
   border: 10px solid red;
@@ -211,9 +213,9 @@ label {
 
 .mainbox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
-  width: 45%;
+  max width: 45%;
   float: centered;
   padding: 15px;
   border: 1px solid red;
