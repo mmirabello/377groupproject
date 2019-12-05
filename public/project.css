@@ -200,26 +200,26 @@ label {
 }
 
 .main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: row wrap;
   width: 45%;
   float: centered;
-  padding: 15px;
-  border: 1px solid red;
+  padding: 10px;
+  border: 10px solid red;
   align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mainbox {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  flex-flow: row wrap;
   width: 45%;
   float: centered;
   padding: 15px;
   border: 1px solid red;
   align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>
