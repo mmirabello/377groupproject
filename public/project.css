@@ -194,34 +194,18 @@ label {
   text-decoration: none;
   cursor: pointer;
 }
+}
 
 * {
   box-sizing: border-box;
 }
 
 .main {
-  display: flex;
-  max width: 75%;
-  flex-direction: column;
-  float: centered;
-  padding: 10px;
-  border: 10px solid red;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mainbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  max width: 45%;
-  float: centered;
+  text-align: center;
+  width: 50%;
+  float: left;
   padding: 15px;
-  border: 1px solid red;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
+  border: 10px solid white;
 }
 
 </style>
