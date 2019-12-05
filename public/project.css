@@ -200,7 +200,12 @@ label {
   box-sizing: border-box;
 }
 
-.main {
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
   text-align: center;
   width: 50%;
   float: left;
