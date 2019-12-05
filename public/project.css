@@ -194,3 +194,17 @@ label {
   text-decoration: none;
   cursor: pointer;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  justify-content: space-between;
+  width: 45%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+</style>
