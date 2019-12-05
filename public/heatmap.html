@@ -51,15 +51,6 @@
         }
       ).addTo(mymap);
 
-      // addressPoints = addressPoints.map(function (p) { return [p[0], p[1]]; });
-
-      //var heat = L.heatLayer(addressPoints).addTo(mymap);
-
-      // var heat = L.heatLayer([
-	    //     [-37.87, 175.475, 0.25], // lat, lng, intensity
-      //     [-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5]
-      //   ,[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5],[-37.87, 175.475, 0.5]], {radius: 100}).addTo(mymap);
-
       console.log('fetch'); // confirm code is running on click
       fetch('/api')
         .then(res => res.json())
@@ -75,6 +66,7 @@
               continue;
             }
             
+            // Populate multiple times for heatmap to properly cluster intensities
             for (x=0; x<20; x++) {
               heatArray.push([data[i][1], data[i][2], 1]);
             }
