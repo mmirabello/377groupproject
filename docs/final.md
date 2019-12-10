@@ -18,7 +18,7 @@ Chosen Strategies and Solutions
 - Our main strategy for solving the problem is to create a map with popups of every speed camera located in PG County. Each popup can be clicked on and when selected, they display the address of the speed camera and the posted speed limit. We also have a heatmap as a visual aid to show concentrations of cameras in certain areas.
 
 Technical System Rationale
-- PLACEHOLDER
+- We had to make a couple of technical system decisions. We decided to go with leaflet.js to plot the coordinates for our map since it required minimal coding and was built to work on both desktop and mobile. We also decided to go with leaflet.heat to make our heat map due to many of the same reasons we decided to use leaflet.js. Mainly because they were written by the same author.
 
 The System Addresses the Problem
 - We believe that our system does address the problem because the information needed to reduce the possibility of getting a ticket is available on our application. However, we can not be certain of the success of our application up until we see the data which shows a decrease in revenue received from speed camera tickets located in PG County.
