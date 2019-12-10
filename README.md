@@ -1,4 +1,4 @@
-# 377groupproject
+# 377 Group Project
 I Am Speed - PG Speed Camera Locator
 
 This website and application aims to help residents of PG and UMD students identify the locations of speed cameras in the county. We use data from Prince George's County's database to put markers on a map, and use heatmaps as a visual aid to show concentrations of cameras in certain areas.
@@ -45,5 +45,8 @@ To run our application on your personal device, please follow these steps:
   ],...
   
 ```
-
+## Future Road-Map
 A road map for future development involves not only having the location of speed cameras, but also the location of red light cameras and stationed police vehicles. Another possible addition is the location of government buildings such as police stations, fire departments and libraries. Another possible addition would be to have our website linked to a server on MySQL in order to have a truly data driven application. If we had this, we could have a web form that also allowed us to track which specific cameras gave the most tickets. This would allow our users to see which cameras to avoid the most. This could help lower how many tickets our users get.
+
+## Known Bugs
+- Help Form does not send information anywhere
