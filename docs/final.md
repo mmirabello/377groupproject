@@ -11,7 +11,7 @@ Information Problem
 
 Stakeholders - UMD Commuters
 
-Data we worked with
+Data We Worked With
 - API: List of Speed Cameras in PG County https://data.princegeorgescountymd.gov/Community/Speed-Cameras/mnkf-cu5c
 
 Chosen Strategies and Solutions
@@ -20,11 +20,11 @@ Chosen Strategies and Solutions
 Technical System Rationale
 - PLACEHOLDER
 
-The system addresses the problem
+The System Addresses the Problem
 - We believe that our system does address the problem because the information needed to reduce the possibility of getting a ticket is available on our application. However, we can not be certain of the success of our application up until we see the data which shows a decrease in revenue received from speed camera tickets located in PG County.
 
-Challenges faced and impact on the final design
+Challenges Faced and Impact on the Final Design
 - Due to some difficulties with communication, the styling for the site was not up to our standards by the presentation date. This caused members to spread themselves in order to make up for lost time. If we anticipated this from the beginning we would have put more human resources and time into developing a more appealing CSS.
 
-Possible future work
+Possible Future Work
 - Potential possible future work involves not only having the location of speed cameras, but also the location of red light cameras and stationed police vehicles. If our goal is to reduce the likelihood of UMD students getting a ticket, then having the aforementioned locations in addition to the speed cameras would be of great value to them.
