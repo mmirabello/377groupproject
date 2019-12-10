@@ -9,7 +9,7 @@ The PG Speed Camera Locator was designed to be compatible with Google Chrome and
 
 User Manual Link: https://github.com/mmirabello/377groupproject/blob/master/docs/user.md
 
-Developer Manual: https://github.com/mmirabello/377groupproject/blob/master/README.md
+Developer Manual: https://github.com/mmirabello/377groupproject/blob/master/README.md#developer-manual
 
 # Developer Manual
 
