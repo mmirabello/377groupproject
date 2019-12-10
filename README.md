@@ -23,9 +23,13 @@ To run our application on your personal device, please follow these steps:
 
 ###### API Endpoints
 **TYPE**: GET
+
 **URL**: /api
+
 **RESPONSE**: An Array of Objects
+
 **EXAMPLE**:
+
 ``` 
   [
     '4500 blk Ammendale Road, Beltsville, MD',
