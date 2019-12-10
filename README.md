@@ -20,3 +20,7 @@ To run our application on your personal device, please follow these steps:
 - In the terminal run the code: npm install.
 - Once completed, run the code: npm start.
 - Go to your browser of choice and put in the URL http://localhost:3000/
+
+ENDPOINT PLACEHOLDER
+
+A road map for future development involves not only having the location of speed cameras, but also the location of red light cameras and stationed police vehicles. Another possible addition is the location of government buildings such as police stations, fire departments and libraries. Another possible addition would be to have our website linked to a server on MySQL in order to have a truly data driven application. If we had this, we could have a web form that also allowed us to track which specific cameras gave the most tickets. This would allow our users to see which cameras to avoid the most. This could help lower how many tickets our users get.
