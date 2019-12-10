@@ -7,6 +7,15 @@ Heroku Link: https://iamspeed.herokuapp.com/
 
 The PG Speed Camera Locator was designed to be compatible with Google Chrome and iOS.
 
-User Manual: https://iamspeed.herokuapp.com/
+User Manual Link: https://github.com/mmirabello/377groupproject/blob/master/docs/user.md
 
-Devloper Manual: https://iamspeed.herokuapp.com/
+Developer Manual: https://github.com/mmirabello/377groupproject/blob/master/README.md
+
+#Developer Manual
+To run our application on your personal device, please follow these steps:
+- Clone our repository onto your personal device.
+- Open your terminal.
+- Navigate through the terminal to the folder where our repository is located.
+- In the terminal run the code: npm install.
+- Once completed, run the code: npm start.
+- Go to your browser of choice and put in the URL http://localhost:3000/
