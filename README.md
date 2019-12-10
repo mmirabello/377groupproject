@@ -21,7 +21,7 @@ To run our application on your personal device, please follow these steps:
 - Once completed, run the code: npm start.
 - Go to your browser of choice and put in the URL http://localhost:3000/
 
-###### API Endpoints
+## API Endpoints
 **TYPE**: GET
 
 **URL**: /api
