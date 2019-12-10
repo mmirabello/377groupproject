@@ -11,7 +11,7 @@ User Manual Link: https://github.com/mmirabello/377groupproject/blob/master/docs
 
 Developer Manual: https://github.com/mmirabello/377groupproject/blob/master/README.md
 
-#Developer Manual
+# Developer Manual
 
 To run our application on your personal device, please follow these steps:
 - Clone our repository onto your personal device.
