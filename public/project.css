@@ -6,10 +6,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #f9f9ff;
+  
+}
+
+.content {
+  margin: auto;
+  width: 80%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .header {
   overflow: hidden;
   background-color: white;
-  padding: 0px 10px;
+  padding: 0px 150px 0px 150px;
 }
 
 .header a {
@@ -21,7 +33,7 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  box-shadow: 5px 10px #888888;
+  
 }
 
 .header a.logo {
@@ -30,8 +42,7 @@
 }
 
 .header a:hover {
-  background-color: LightGray;
-  color: black;
+  color: red;
   border-radius: 10px;
 }
 
@@ -57,7 +68,7 @@
 
 #mapid {
   height: 600px;
-  margin: 30px;
+  margin: 0px;
 }
 
 /* Style inputs, select elements and textareas */
@@ -220,5 +231,3 @@ label {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-</style>
