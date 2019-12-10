@@ -5,7 +5,7 @@ Description: This website and application aims to help residents of PG and UMD s
 
 Heroku Link: https://iamspeed.herokuapp.com/
 
-Target Browsers: The PG Speed Camera Locator was designed to be compatible with Google Chrome and iOS.
+Target Browsers: The PG Speed Camera Locator was designed to be compatible with Google Chrome and Tablets
 
 User Manual Link: https://github.com/mmirabello/377groupproject/blob/master/docs/user.md
 
